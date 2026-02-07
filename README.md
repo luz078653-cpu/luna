@@ -1,2 +1,0 @@
-# luna
-script para dti
