@@ -1,0 +1,14 @@
+-- Script para Murder Mystery 2 (MM2) en Roblox
+-- Incluye emotes personalizados y auto-farmeo de coins/XP
+-- Este script es keyless (no requiere clave de executor premium, funciona con executors gratuitos como Fluxus, Krnl o Delta)
+-- Advertencia: Usar exploits en Roblox viola los TOS y puede resultar en bans. Úsalo bajo tu propio riesgo.
+-- Instrucciones: Copia y pega en tu executor, ejecútalo en el lobby o en partida.
+
+-- Cargar librerías básicas si es necesario (la mayoría de executors las tienen)
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Workspace = game:GetService("Workspace")
+
+-- Variables para farmeo
+local farming = false  -- Toggle para activar/desactivar farme
